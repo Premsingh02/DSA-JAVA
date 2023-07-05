@@ -12,6 +12,6 @@ public class classes {
         Student obj1;
         obj1.rollno = 11;
         obj1.print();
-        
+
     }
 }
