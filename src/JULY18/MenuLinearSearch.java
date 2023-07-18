@@ -6,7 +6,7 @@ public class MenuLinearSearch {
             if(key == menu[i]){
                 return i;
             }
-        }
+        };
         return -1;
     };
     public static void main(String[] args) {
