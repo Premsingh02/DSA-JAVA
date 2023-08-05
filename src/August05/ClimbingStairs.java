@@ -10,6 +10,7 @@ public class ClimbingStairs {
             return 2;
         } else {
             return climbStairs(n - 1) + climbStairs(n - 2);
+            
         }
     }
 
