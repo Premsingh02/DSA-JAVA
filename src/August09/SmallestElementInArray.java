@@ -2,7 +2,7 @@ package August09;
 
 public class SmallestElementInArray {
     public static int findLargest(int[] nums){
-        int maximum = nums[0];
+        int maximum = Integer.MAX_VALUE;
         for(int i =0; i<nums.length; i++){
             if (nums[i] < maximum) {
                 maximum = nums[i];
