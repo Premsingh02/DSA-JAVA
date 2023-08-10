@@ -8,6 +8,8 @@ public class SecondLargestElement {
             if(nums[i]>largest){
                 secondLargest = largest;
                 largest = nums[i];
+            } else if (nums[i]>secondLargest && nums[i] != largest){
+                secondLargest = nums[i];
             }
         }
         return secondLargest;
