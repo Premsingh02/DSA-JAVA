@@ -18,7 +18,7 @@ public class ZigZagTraversal {
                 }
             }
         }
-        
+
         System.out.println();
     }
 
