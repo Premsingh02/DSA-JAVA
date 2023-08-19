@@ -25,6 +25,7 @@ public class KokoEatingBananas {
                 right = middle;
             } else {
                 left = middle + 1;
+                //
             }
         }
 
@@ -40,3 +41,6 @@ public class KokoEatingBananas {
         System.out.println(result);
     }
 }
+
+
+
