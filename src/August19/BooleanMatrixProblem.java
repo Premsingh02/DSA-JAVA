@@ -16,5 +16,5 @@ public class BooleanMatrixProblem {
         }
         return mat;
     }
-    
+
 }
