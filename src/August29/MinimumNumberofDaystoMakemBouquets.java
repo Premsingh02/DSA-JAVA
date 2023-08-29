@@ -1,7 +1,7 @@
 package August29;
 
 public class MinimumNumberofDaystoMakemBouquets {
-    public boolean isPossible(int mid, int[] bloomDay, int m, int k) {
+    public static boolean isPossible(int mid, int[] bloomDay, int m, int k) {
 
         int n = bloomDay.length;
         int ans = 0;
@@ -19,7 +19,7 @@ public class MinimumNumberofDaystoMakemBouquets {
         return ans >= m;
     }
 
-    public int minDays(int[] bloomDay, int m, int k) {
+    public static int minDays(int[] bloomDay, int m, int k) {
         int low = 1;
         int high = 1000000000;
 
